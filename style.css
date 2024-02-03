@@ -538,6 +538,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 .count1{
     display: flex;
+    max-width: 50%;
     justify-content: space-around;
     align-items: center;
     border: #0B1D28;
