@@ -64,7 +64,7 @@
         function showSlides() {
             let slides = document.getElementsByClassName("testimonial");
             for (let i = 0; i < slides.length; i++) {
-                slides[i].style.transform = 'translateX(${(i - slideIndex) * 100}%)';
+                slides[i].style.transform = `translateX(${(i - slideIndex) * 100}%)`;
             }
             slideIndex++;
             if (slideIndex >= slides.length) { slideIndex = 0; }
@@ -212,6 +212,9 @@
             </form>
         </div>
     </div>
+   
+    
+    </section>
     <div class="count1">
         <p style="font-size: 2.0rem;">This website has been visited:</p>
         <p id="visit-count"></p>  
@@ -230,7 +233,6 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo metus quis.</p>
         </div>
     </div>
-    </section>
     
 </body>
 </html>
