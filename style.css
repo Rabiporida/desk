@@ -536,3 +536,9 @@ textarea::-webkit-scrollbar-thumb {
 .contactbox form #button:hover {
     opacity: 0.7;
 }
+.count1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #0B1D28;
+}
